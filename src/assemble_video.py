@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 import tempfile
 import subprocess
 
-out_res = (320, 180)
+out_res = (240, 135)
 
 
 def draw_text(base, label, color=(255, 32, 32, 192)):
