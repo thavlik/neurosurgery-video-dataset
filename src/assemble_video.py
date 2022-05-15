@@ -27,10 +27,10 @@ labels = ['dura', 'suction']
 videos = [
     ['9QGjhPp2Gjs.2', 45, ['dura', 'suction', 'hook']],
     ['cil034xgU0U.0', 179, ['tumor', 'suction', 'bipolar']],
-    ['GJgQgvqRJMU.1', 91, ['AVM', 'suction', 'forceps']],
+    ['GJgQgvqRJMU.1', 91, ['AVM', 'forceps', 'monopolar']],
 ]
 num_frames = 30
-colors = [(128, 64, 255, 192),
+colors = [(128, 64, 255, 128),
           (32, 255, 32, 192),
           (255, 210, 8, 192),
           (192, 32, 255, 192)]
@@ -38,7 +38,7 @@ with tempfile.TemporaryDirectory() as tmpdir:
     for i in range(num_frames):
         amalgam = None
         out_path = os.path.join(tmpdir, f'{i:04d}' + '.jpg')
-        for video, start, labels in videos:
+        for j, (video, start, labels) in enumerate(videos):
             frame = i + start
             masks_dir = f'data/masks/{video}'
             input_path = f'download/stills/{video}/{frame:04d}.jpg'
@@ -73,8 +73,9 @@ with tempfile.TemporaryDirectory() as tmpdir:
             composite = composite.clip(0, 255)
             composite = composite.astype(np.uint8)
             row = np.concatenate([row, composite], axis=1)
-            bar = (np.ones((4, row.shape[1], 4)) * 255).astype(np.uint8)
-            row = np.concatenate([row, bar], axis=0)
+            if j < len(videos)-1:
+                bar = (np.ones((4, row.shape[1], 4)) * 255).astype(np.uint8)
+                row = np.concatenate([row, bar], axis=0)
             #composite = Image.fromarray(composite)
             #composite = draw_text(composite, 'composite', (32, 255, 255, 255))
             #composite = np.asarray(composite)

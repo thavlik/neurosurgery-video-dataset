@@ -5,12 +5,13 @@ This is a compilation of YouTube videos that has been processed for use in a mac
 
 ## TODO
 Overfit model on three videos of increasing complexity:
-cil034xgU0U.0 label tumor pixels
-9QGjhPp2Gjs.2 label the dura as it is cut away
+- cil034xgU0U.0 label tumor pixels
+- 9QGjhPp2Gjs.2 label the dura as it is cut away
     - Color vertebrae 9QGjhPp2Gjs.2.0003-9QGjhPp2Gjs.2.0027
     - Color dura 9QGjhPp2Gjs.2.0045-9QGjhPp2Gjs.2.0087
     - Color dura 9QGjhPp2Gjs.2.0206-9QGjhPp2Gjs.2.0213
-GJgQgvqRJMU.1 label blood vessels, AVM, etc.
+- GJgQgvqRJMU.1 label blood vessels, AVM, etc.
+
 
 # License
 ## Data
