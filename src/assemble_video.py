@@ -30,9 +30,9 @@ videos = [
     ['GJgQgvqRJMU.1', 91, ['AVM', 'suction', 'forceps']],
 ]
 num_frames = 30
-colors = [(32, 32, 255, 192),
+colors = [(128, 64, 255, 192),
           (32, 255, 32, 192),
-          (255, 255, 32, 192),
+          (255, 210, 8, 192),
           (192, 32, 255, 192)]
 with tempfile.TemporaryDirectory() as tmpdir:
     for i in range(num_frames):
