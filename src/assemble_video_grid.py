@@ -25,15 +25,15 @@ def draw_text(base, label, color=(255, 32, 32, 192)):
 
 labels = ['dura', 'suction']
 videos = [
-    ['9QGjhPp2Gjs.2', 45, ['dura', 'suction', 'hook']],
-    ['cil034xgU0U.0', 179, ['tumor', 'suction', 'bipolar']],
-    ['GJgQgvqRJMU.1', 91, ['avm', 'forceps', 'monopolar']],
+    ['9QGjhPp2Gjs.2', 45, ['dura', 'suction', 'hook', 'scissors']],
+    #['cil034xgU0U.0', 179, ['tumor', 'suction', 'bipolar']],
+    #['GJgQgvqRJMU.1', 91, ['avm', 'forceps', 'monopolar']],
 ]
 num_frames = 30
 colors = [(128, 64, 255, 128),
           (32, 255, 32, 192),
           (255, 210, 8, 192),
-          (192, 32, 255, 192)]
+          (32, 255, 255, 192)]
 with tempfile.TemporaryDirectory() as tmpdir:
     for i in range(num_frames):
         amalgam = None
