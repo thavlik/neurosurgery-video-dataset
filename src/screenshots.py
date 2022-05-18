@@ -6,6 +6,7 @@ vids = [
     '9QGjhPp2Gjs.2',
     'cil034xgU0U.0',
     'GJgQgvqRJMU.1',
+    'j6k-Nins08o.1',
 ]
 for vid in vids:
     input = f'download/processed/{vid}.mp4'

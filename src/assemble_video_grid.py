@@ -30,7 +30,10 @@ videos = [
                            'suction',
                            [('hook', 45), ('scissors', 60)]]],
     ['cil034xgU0U.0', 179, ['tumor', 'suction', 'bipolar']],
-    #['GJgQgvqRJMU.1', 91, ['avm', 'forceps', 'monopolar']],
+    ['j6k-Nins08o.1', 86, ['tumor', 'suction', 'bipolar']]
+    #['GJgQgvqRJMU.1', 91, ['avm',
+    #                       'forceps',
+    #                       [('monopolar', 91), ('forceps', 94)]]],
 ]
 num_frames = 30
 colors = [(128, 64, 255, 128),
