@@ -12,7 +12,6 @@ Overfit model on three videos of increasing complexity:
     - Color dura 9QGjhPp2Gjs.2.0206-9QGjhPp2Gjs.2.0213
 - GJgQgvqRJMU.1 label blood vessels, AVM, etc.
 
-
 # License
 ## Data
 Video data is property of the respective authors.

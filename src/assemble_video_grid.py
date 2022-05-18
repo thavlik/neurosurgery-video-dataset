@@ -1,3 +1,4 @@
+from multiprocessing.sharedctypes import Value
 import os
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
@@ -25,8 +26,10 @@ def draw_text(base, label, color=(255, 32, 32, 192)):
 
 labels = ['dura', 'suction']
 videos = [
-    ['9QGjhPp2Gjs.2', 45, ['dura', 'suction', 'hook', 'scissors']],
-    ['cil034xgU0U.0', 179, ['tumor', 'suction', 'bipolar', 'null']],
+    ['9QGjhPp2Gjs.2', 45, ['dura',
+                           'suction',
+                           [('hook', 45), ('scissors', 60)]]],
+    ['cil034xgU0U.0', 179, ['tumor', 'suction', 'bipolar']],
     #['GJgQgvqRJMU.1', 91, ['avm', 'forceps', 'monopolar']],
 ]
 num_frames = 30
@@ -48,6 +51,15 @@ with tempfile.TemporaryDirectory() as tmpdir:
                 row = np.asarray(im)
                 composite = row.astype(np.float32)
             for label, color in zip(labels, colors):
+                if isinstance(label, list):
+                    # resolve current frame number
+                    label_i = 0
+                    for k, (_, start_frame) in enumerate(label):
+                        if frame >= start_frame:
+                            label_i = k
+                        else:
+                            break
+                    label = label[label_i][0]
                 label_path = f'data/masks/{video}/{frame:04d}.{label}.jpg'
                 if not os.path.exists(label_path):
                     # Use a black image
