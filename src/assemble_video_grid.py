@@ -26,7 +26,7 @@ def draw_text(base, label, color=(255, 32, 32, 192)):
 labels = ['dura', 'suction']
 videos = [
     ['9QGjhPp2Gjs.2', 45, ['dura', 'suction', 'hook', 'scissors']],
-    #['cil034xgU0U.0', 179, ['tumor', 'suction', 'bipolar']],
+    ['cil034xgU0U.0', 179, ['tumor', 'suction', 'bipolar', 'null']],
     #['GJgQgvqRJMU.1', 91, ['avm', 'forceps', 'monopolar']],
 ]
 num_frames = 30
