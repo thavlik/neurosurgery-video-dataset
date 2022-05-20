@@ -32,7 +32,7 @@ videos = [
     ['cil034xgU0U.0', 179, ['tumor', 'suction', 'bipolar']],
     ['j6k-Nins08o.1', 86, ['tumor', 'suction', 'bipolar']],
     ['GJgQgvqRJMU.1', 129, ['avm',
-                           'lforceps',
+                           [('lforceps', 129), ('suction', 140)],
                            [('rforceps', 129), ('bipolar', 140)]]],
 ]
 num_frames = 30
