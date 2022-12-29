@@ -4,6 +4,7 @@
 This is a compilation of YouTube videos that has been processed for use in a machine learning dataset. The goal is to provide per-pixel labels for a variety of features, from the surgeon's tools to the patient's tissues.
 
 ## TODO
+- label more frames
 - overfit model on toy dataset
 
 ## License
