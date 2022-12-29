@@ -6,6 +6,9 @@ This is a compilation of YouTube videos that has been processed for use in a mac
 ## TODO
 - label more frames
 - overfit model on toy dataset
+- create a frame-filter model using [t4vd](https://github.com/thavlik/t4vd)
+- train a variational auto-encoder on the t4vd-filtered frames
+- determine if the VAE improves data efficiency
 
 ## License
 ### Data
