@@ -1,7 +1,7 @@
 # Neurosurgery Video Dataset
 ![](./output.gif)
 
-This is a compilation of YouTube videos that has been processed for use in a machine learning dataset. The goal is to provide per-pixel labels for a variety of features, from the surgeon's tools to the patient's tissues.
+This is a compilation of YouTube videos that has been processed for use in a machine learning dataset. The goal is to facilitate the creation of tools that provide per-pixel labels for features ranging from the surgeon's tools to the patient's tissues.
 
 ## TODO
 - label more frames
