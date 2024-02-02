@@ -15,6 +15,10 @@ This is a compilation of YouTube videos that has been processed for use in a mac
 - determine if the VAE improves data efficiency
 - evaluate amazon mturk with this project's data
 
+## Related projects
+- [e-Shadowing Transcriber](https://github.com/thavlik/transcriber): an application for enhancing the medical e-Shadowing experience
+- [thavlik portfolio](https://github.com/thavlik/machine-learning-portfolio): my portfolio of medical software projects, of which this repository is a part
+
 ## License
 ### Data
 Video data is property of the respective authors:
