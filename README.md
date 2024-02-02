@@ -1,4 +1,4 @@
-![](./output.gif)
+![](./images/output.gif)
 # Neurosurgery Video Dataset
 [<img src="https://img.shields.io/badge/maintenance%20status-actively%20developed-brightgreen">](https://github.com/thavlik/neurosurgery-video-dataset)
 [<img src="https://img.shields.io/badge/License-Apache_2.0-orange.svg">](./LICENSE-Apache)
