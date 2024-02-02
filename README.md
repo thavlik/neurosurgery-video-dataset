@@ -5,7 +5,7 @@
 [<img src="https://img.shields.io/badge/License-MIT-lightblue.svg">](./LICENSE-MIT)
 [<img src="https://img.shields.io/badge/Language-python-FFD43B.svg">](https://www.python.org/)
 
-This is a compilation of YouTube videos that has been processed for use in a machine learning dataset. The goal is to facilitate the creation of tools that provide per-pixel labels for features ranging from the surgeon's tools to the patient's tissues. I think such tools have the potential to greatly enhance the value of surgical e-Shadowing, giving students the ability to click parts of the video itself to get more information about the anatomy.
+This is a compilation of YouTube videos that has been processed for use in a machine learning dataset. The goal is to facilitate the creation of tools that provide per-pixel labels for features ranging from the surgeon's tools to the patient's tissues. I think such tools have the potential to greatly enhance the value of surgical e-Shadowing, giving students the ability to click parts of the video itself to get more information about the anatomy. This feature would greatly enhance [e-Shadowing Transcriber](https://github.com/thavlik/transcriber), which automates the retrieval of supplementary materials.
 
 ## TODO
 - label more frames
