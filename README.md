@@ -17,7 +17,7 @@ This is a compilation of YouTube videos that has been processed for use in a mac
 
 ## Related projects
 - [e-Shadowing Transcriber](https://github.com/thavlik/transcriber): an application for enhancing the medical e-Shadowing experience
-- [thavlik portfolio](https://github.com/thavlik/machine-learning-portfolio): my portfolio of medical software projects, of which this repository is a part
+- [thavlik portfolio](https://github.com/thavlik/machine-learning-portfolio): my showcase of medical software projects, of which this repository is a part
 
 ## License
 ### Data
