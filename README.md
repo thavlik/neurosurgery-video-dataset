@@ -5,7 +5,7 @@
 [<img src="https://img.shields.io/badge/License-Apache_2.0-orange.svg">](./LICENSE-Apache)
 [<img src="https://img.shields.io/badge/License-MIT-lightblue.svg">](./LICENSE-MIT)
 
-This is a compilation of YouTube videos that has been processed for use in a machine learning dataset. The goal is to facilitate the creation of tools that provide per-pixel labels for features ranging from the surgeon's tools to the patient's tissues. I think such tools have the potential to greatly enhance the value of surgical e-Shadowing, giving students the ability to click parts of the video itself to get more information about the anatomy. This feature would go well with [e-Shadowing Transcriber](https://github.com/thavlik/transcriber), which automates the retrieval of supplementary materials.
+This is a compilation of YouTube videos that has been processed for use in a machine learning dataset. The goal is to facilitate the creation of tools that provide per-pixel labels for features ranging from the surgeon's tools to the patient's tissues. I think such tools have the potential to greatly enhance the value of surgical e-Shadowing, giving students the ability to click parts of the video itself to get information about the anatomy under the cursor. This feature would go well with [e-Shadowing Transcriber](https://github.com/thavlik/transcriber), which automates the retrieval of supplementary materials.
 
 ## TODO
 - label more frames
